@@ -9,7 +9,8 @@ class Account extends Component {
             username: '',
             pass: '',
             passCon: '',
-            email: ''
+            email: '',
+            errors: []
         }
         this.validateUsername = this.validateUsername.bind(this);
         this.validatePass = this.validatePass.bind(this);
@@ -24,8 +25,14 @@ class Account extends Component {
     }
 
     validateUsername (event){
-        console.log(event.target.value);
+        // console.log(event.target.value);
         let value = event.target.value;
+        if(value === ''){
+            let errors = this.state.errors;
+            errors.push('username cannot be empty');
+            this.setState(errors);
+        }
+
         this.setState({username: value})
     }
 
@@ -52,6 +59,10 @@ class Account extends Component {
     render() { 
         return (
             <div className = "app">
+                {this.state.errors.map((err) =>( 
+                    <p>{err}</p>
+                    ))
+                }
                 Username: <input type= 'text' onBlur={this.validateUsername}/> <br />
                 Password: <input type= 'text' onBlur={this.validatePass}/> <br />
                 Password Confirmation: <input type= 'text' onBlur={this.validatePassCon}/> <br />
