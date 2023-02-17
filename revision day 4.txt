@@ -1,0 +1,27 @@
+Conditional (JSX)
+-{isAvail && <p>...</p> }
+-printMe(){}
+if(...)
+ return <p>...</p>
+else
+ return <p>...</p>
+
+{isAvail ? <p>...</p> : <p>...</p>}
+
+Loop
+{arr.map((val, ind) => <p>{val}</p>}
+{arr.map(val => <p> {val} </p>}
+
+Name = useRef()
+<input ref={name}>
+
+API
+-fetch(url, {method:'POST'}).then ((data) =>
+data.json()).then(json => ...)
+-jsonplaceholder.typicode.com
+
+-json-server
+-npm install json-server
+-json-server -watch db.json -poart 3004
+-Postman / Thunder Client
+-Bootstrap getbootstrap.com (css framework)

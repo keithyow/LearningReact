@@ -1,0 +1,23 @@
+Intro
+- Installation of software and jdk
+- Coded Hello World using notepad and terminal
+- Javac, Java, Javadoc (Tools used)
+- Setup environment variable path
+
+
+Java Basic
+- Conditional
+- Loops
+
+OOP
+- Class vs obj
+- 2 members of Class (Field, Method)
+- Constructor name => class name
+- Overloading vs overriding
+- Overloading => a class with multiple method and have the same name
+- New = instantiate an obj
+- Interface => declaration, no implementation
+- Inheritance => extends
+- Child inherit everything from parent... except private field or method
+- Final => cannot change value for vairables and cannot override for methods
+- Static => belongs to class, className.static members

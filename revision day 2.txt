@@ -1,0 +1,33 @@
+-Java API
+-Collection
+ -Array
+ -HashSet
+ -ArrayList
+ -HashMap
+-Java Bean
+ -Reusable component
+ -Implement java.io.Serializable
+ -Empty constructor
+ -Setter & Getter
+-Lambda
+ -Simple function
+ -() -> {} returns function
+-String
+ -toUpperCase()
+ -toLowerCase()
+ -substring()
+ -concat()
+ -indexOf()
+ -contains()
+ -split(Regex)
+-Regular Expression
+ -Pattern, Matcher
+ -[0-9]{6}-10-...
+-Stream
+ -sorted(), filter(), map(), reduce()
+-JDBC
+ -SQLite
+ -Driver, downloaded from Maven repo
+ -Java.sql.Connection
+ -Statement
+ -ResultSet -> select*from employee

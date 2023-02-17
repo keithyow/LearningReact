@@ -1,0 +1,32 @@
+JavaScript
+NodeJS (npm, npx), vsc
+hello_world.html
+-html
+-css
+-javascript
+Vsc ext: live server
+Learn basic js
+- let name = 'ga'
+- var name = 'ga'
+- const name = 'ga'
+- Name = 'ha'
+console.log('');
+alert('');
+Function sayHello(param1){}
+Let arr =[1,3,4,7];
+for(let i = 0; i< 10; i++){}
+let arr2 = [...arr]
+object -{name: 'haha', ...}
+let name:string = 'ahaha'
+
+npx create-react-app <proj name>
+component
+-function
+-class
+Function counter(props){
+ function increment(){..}
+}
+
+<counter text = '' onClick='...' />
+
+jsx - emulated html using js
